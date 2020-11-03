@@ -17,8 +17,7 @@ public class Exercice01 {
         System.out.print("Entrez votre age : ");
         Scanner kbd = new Scanner(System.in);
         int age = kbd.nextInt();
-        if (age>=18) System.out.println("Vous etes majeur");
-                else System.out.println("Vous etes mineur");
+        if (age>18) System.out.println("Vous etes majeur");
     }
     
 }
